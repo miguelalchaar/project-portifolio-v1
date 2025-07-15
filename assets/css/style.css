@@ -3,6 +3,7 @@
   --white-color: #fff;
   --gray-color: #757575;
   --green-color: #00ff08;
+  --color-shadow: #ffffff28;
 }
 
 /* ESTILO GERAL */
@@ -227,4 +228,56 @@ header nav ul li {
 .sobre .flex {
   align-items: center;
   gap: 60px;
+}
+
+/* ESTILO PORTFÓLIO */
+.portfolio {
+  padding: 40px 4%;
+  box-shadow: 0 0 40px 10px var(--color-shadow);
+}
+
+.portfolio .flex {
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.img-port {
+  width: 360px;
+  height: 460px;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 5s;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.img-port:hover {
+  background-position: 100% 100%;
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #0000009a;
+  color: var(--white-color);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.overlay:hover {
+  opacity: 1;
+  box-shadow: 0 0 10px var(--white-color);
+}
+
+.overlay a {
+  text-decoration: none;
+  color: var(--white-color);
 }
