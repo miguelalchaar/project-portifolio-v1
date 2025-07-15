@@ -38,9 +38,20 @@ body {
   transition: 0.2s;
 }
 
-.btn-contato button:hover {
+button:hover {
   box-shadow: 0px 0px 8px var(--green-color);
   transform: scale(1.03);
+}
+
+.titulo {
+  color: var(--white-color);
+  text-align: center;
+  font-size: 38px;
+  margin-top: 50px;
+}
+
+.titulo span {
+  color: var(--green-color);
 }
 
 /* ESTILO DO CABEÇALHO */
@@ -83,11 +94,11 @@ header nav ul li {
 }
 
 /* ESTILO TOPO DO SITE */
-main .topo-do-site {
+.topo-do-site {
   padding: 40px 4%;
 }
 
-main .topo-do-site .flex {
+.topo-do-site .flex {
   align-items: center;
   justify-content: center;
   gap: 90px;
@@ -109,9 +120,9 @@ main .topo-do-site .flex {
 }
 
 .topo-do-site .img-topo-site img {
+  position: relative;
   border-radius: 50%;
   box-shadow: 0px 0px 50px var(--green-color);
-  position: relative;
   animation: flutuar 2s ease-in-out infinite alternate;
 }
 
@@ -129,4 +140,91 @@ main .topo-do-site .flex {
   100% {
     top: 30px;
   }
+}
+
+/* MINHAS HABILIDADES */
+.habilidades {
+  padding: 80px 4%;
+}
+.habilidades .flex {
+  gap: 60px;
+}
+
+.habilidades .habilidades-box {
+  color: var(--white-color);
+  padding: 50px;
+  border-radius: 25px;
+  margin-top: 45px;
+  transition: 0.2s;
+}
+
+.habilidades .habilidades-box:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 10px var(--green-color);
+}
+
+.habilidades .habilidades-box i {
+  font-size: 70px;
+  color: var(--green-color);
+}
+
+.habilidades .habilidades-box h3 {
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+/* ESTILO SOBRE */
+.img-sobre img {
+  border-radius: 45px;
+}
+
+.sobre {
+  padding: 80px 4%;
+}
+
+.sobre .txt-sobre {
+  color: var(--white-color);
+}
+
+.sobre .txt-sobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+  color: var(--green-color);
+  display: block;
+}
+
+.sobre .txt-sobre p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--green-color);
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.sobre .txt-sobre .btn-social button:hover {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--green-color);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sobre .flex {
+  align-items: center;
+  gap: 60px;
 }
