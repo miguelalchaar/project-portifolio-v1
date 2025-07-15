@@ -61,10 +61,15 @@ header a {
   display: inline-block;
 }
 
+header .logo a h1 {
+  color: var(--white-color);
+  font-size: 25px;
+}
+
 header a:hover {
   color: var(--white-color);
 
-  transform: scale(1.05);
+  transform: scale(1.04);
   transition: 0.2s;
 }
 
@@ -104,6 +109,8 @@ main .topo-do-site .flex {
 }
 
 .topo-do-site .img-topo-site img {
+  border-radius: 50%;
+  box-shadow: 0px 0px 50px var(--green-color);
   position: relative;
   animation: flutuar 2s ease-in-out infinite alternate;
 }
