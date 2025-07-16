@@ -12,7 +12,7 @@ Ele foi criado para apresentar minhas habilidades, projetos, experiências e fac
 
 > ⚡ **Nota:** Esta é a **primeira versão (v1)** do meu portfólio. Futuramente, pretendo evoluir este projeto com **JavaScript**, **frameworks modernos** (como React ou Vue.js) e outras tecnologias mais avançadas para tornar minha apresentação ainda mais interativa e completa.
 
-Acesse o site em: [ **Clique Aqui** ](https://miguelalchaar.github.io/project-portifolio-v1)
+Acesse o site em: [ **Clique Aqui** ](https://miguelalchaar.github.io/project-portfolio-v1)
 
 ---
 
@@ -73,7 +73,7 @@ O site é totalmente responsivo e pode ser acessado perfeitamente em:
 
 2️⃣ Abra o arquivo index.html no navegador de sua preferência.
 Ou simplesmente acesse a versão publicada:
-[https://miguelalchaar.github.io](https://miguelalchaar.github.io/project-portifolio-v1)
+[https://miguelalchaar.github.io](https://miguelalchaar.github.io/project-portfolio-v1)
 
 ---
 
