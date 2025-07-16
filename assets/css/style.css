@@ -203,7 +203,7 @@ header nav ul li {
   text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
+.btn-social button {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -331,4 +331,39 @@ form textarea {
 .btn-enviar input:hover {
   box-shadow: 0px 0px 8px var(--green-color);
   transform: scale(1.03);
+}
+
+/* ESTILO RODAPÉ */
+footer {
+  padding: 40px 4%;
+  box-shadow: 0 0 40px 10px var(--color-shadow);
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .line-footer {
+  padding: 30px 0;
+}
+
+.borda {
+  border-top: 2px solid var(--green-color);
+}
+
+.line-footer p i {
+  color: var(--green-color);
+  font-size: 22px;
+}
+
+.line-footer p a {
+  color: var(--white-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.logo-footer {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--white-color);
 }
