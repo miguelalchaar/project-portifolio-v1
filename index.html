@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="./assets/js/main.js
-    "
-      defer
-    ></script>
     <title>Miguel Alchaar</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -207,39 +211,34 @@
         <div class="interface">
           <h2 class="titulo">FALA <span>COMIGO</span></h2>
 
-          <form
-            action="https://formsubmit.co/alchaarcs@gmail.com"
-            method="post"
-            data-form
-          >
+          <form id="EnviaEmail" method="post">
             <input
               type="text"
               name="nome"
               id="nome"
               placeholder="Seu nome completo"
-              required
             />
             <input
               type="text"
               name="email"
               id="email"
               placeholder="Seu e-mail"
-              required
             />
             <input
               type="text"
-              name="celular"
-              id="celular"
-              placeholder="Seu celular"
+              name="subject"
+              id="subject"
+              placeholder="Assunto"
             />
             <textarea
+              name=""
+              id=""
               name="mensagem"
               id="mensagem"
               placeholder="Sua mensagem"
-              required
             ></textarea>
             <div class="btn-enviar">
-              <button data-button type="submit">ENVIAR</button>
+              <button type="submit" id="submitButton">ENVIAR</button>
             </div>
           </form>
         </div>
@@ -277,5 +276,10 @@
         </div>
       </div>
     </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="./assets/js/main.js" defer></script>
   </body>
 </html>

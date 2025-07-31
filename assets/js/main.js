@@ -14,68 +14,53 @@ overlay.addEventListener("click", () => {
   menu.classList.remove("open-menu");
 });
 
-class FormSubmit {
-  constructor(settings) {
-    this.settings = settings;
-    this.form = document.querySelector(settings.form);
-    this.formButton = document.querySelector(settings.button);
-    if (this.form) {
-      this.url = this.form.getAttribute("action");
-    }
-    this.sendForm = this.sendForm.bind(this);
-  }
-
-  displaySuccess() {
-    this.form.innerHTML = this.settings.success;
-  }
-
-  displayError() {
-    this.form.innerHTML = this.settings.error;
-  }
-
-  getFormObject() {
-    const formObject = {};
-    const fields = this.form.querySelectorAll("[name]");
-    fields.forEach((field) => {
-      formObject[field.getAttribute("name")] = field.value;
-    });
-    return formObject;
-  }
-
-  onSubmission(event) {
-    event.preventDefault();
-    event.target.disabled = true;
-    event.target.innerText = "Enviando...";
-  }
-
-  async sendForm(event) {
-    try {
-      this.onSubmission(event);
-      await fetch(this.url, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify(this.getFormObject()),
-      });
-      this.displaySuccess();
-    } catch (error) {
-      this.displayError();
-      throw new Error(error);
-    }
-  }
-
-  init() {
-    if (this.form) this.formButton.addEventListener("click", this.sendForm);
-    return this;
-  }
-}
-
-const formSubmit = new FormSubmit({
-  form: "[data-form]",
-  button: "[data-button]",
-  success: "<h1 class='success'>Mensagem enviada!</h1>",
-  error: "<h1 class='error'>Não foi possível enviar sua mensagem.</h1>",
+emailjs.init({
+  publicKey: "a3rCVuIyOA_8sRgR2",
 });
-formSubmit.init();
+
+document
+  .getElementById("EnviaEmail")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const formData = {
+      name: document.getElementById("nome").value,
+      email: document.getElementById("email").value,
+      subject: document.getElementById("subject").value,
+      mensagem: document.getElementById("mensagem").value,
+    };
+
+    const serviceID = "service_3wxba7b";
+    const templateID = "template_sxwdqe8";
+    const submitButton = document.getElementById("submitButton");
+
+    submitButton.textContent = "Enviando...";
+
+    emailjs
+      .send(serviceID, templateID, formData)
+      .then(() => {
+        Toastify({
+          text: "Mensagem enviada com sucesso!",
+          duration: 3000,
+          style: {
+            background: "#00ff08",
+            color: "#000000ff",
+          },
+        }).showToast();
+
+        document.getElementById("EnviaEmail").reset();
+      })
+      .catch((error) => {
+        Toastify({
+          text: "Erro ao enviar mensagem",
+          duration: 3000,
+          style: {
+            background: "#dc3545",
+            color: "#f4f4f4",
+          },
+        }).showToast();
+      })
+      .finally(() => {
+        submitButton.textContent = "Enviar";
+      });
+  });
