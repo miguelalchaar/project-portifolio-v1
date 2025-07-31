@@ -388,17 +388,38 @@ form textarea {
   text-align: center;
 }
 
-.btn-enviar input {
+.btn-enviar button {
+  text-align: center;
+  font-size: 15px;
+  padding-block: 15px;
   width: 120px;
   background-color: var(--green-color);
   color: var(--black-color);
   font-weight: 700;
+  border: none;
+  border-radius: 50px;
   cursor: pointer;
 }
 
-.btn-enviar input:hover {
+.btn-enviar button:hover {
   box-shadow: 0px 0px 8px var(--green-color);
   transform: scale(1.03);
+}
+
+.btn-enviar button:disabled {
+  border: none;
+  cursor: not-allowed;
+  background: var(--gray-color);
+}
+
+.success {
+  text-align: center;
+  color: var(--green-color);
+}
+
+.error {
+  text-align: center;
+  color: tomato;
 }
 
 /* ESTILO RODAPÉ */
