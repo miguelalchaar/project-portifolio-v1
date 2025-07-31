@@ -503,6 +503,10 @@ footer .line-footer {
     padding: 40px 8%;
   }
 
+  .habilidades .flex {
+    flex-direction: column;
+  }
+
   /* SOBRE */
 
   .sobre,
@@ -517,6 +521,11 @@ footer .line-footer {
   .sobre .txt-sobre h2 {
     font-size: 35px;
     line-height: 35px;
+  }
+
+  .sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: left;
   }
 
   .btn-social {
