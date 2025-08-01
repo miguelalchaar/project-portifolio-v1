@@ -545,6 +545,8 @@ footer .line-footer {
   .img-port {
     width: 100%;
     max-width: 360px;
+    aspect-ratio: 360 / 460;
+    height: auto;
     margin: 0 auto;
   }
 
