@@ -2,9 +2,10 @@
 
 > Site Responsivo de Apresentação Pessoal
 
-[![Licença MIT](https://img.shields.io/badge/Licença-MIT-blue)](LICENSE)
+[![Licença MIT](https://img.shields.io/badge/Licença-MIT-blue)](LICENSE)<br>
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)<br>
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)<br>
 [![Status](https://img.shields.io/badge/Status-Desenvolvimento-orange)]()
 
 **Portfolio Pessoal v1** é um site desenvolvido do zero utilizando apenas **HTML5** e **CSS3**, com foco em responsividade, performance e design limpo.  
