@@ -2,17 +2,18 @@
 
 > Site Responsivo de Apresentação Pessoal
 
-[![Licença MIT](https://img.shields.io/badge/Licença-MIT-blue)](LICENSE)
+[![Licença MIT](https://img.shields.io/badge/Licença-MIT-blue)](LICENSE)<br>
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)<br>
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)<br>
 [![Status](https://img.shields.io/badge/Status-Desenvolvimento-orange)]()
 
 **Portfolio Pessoal v1** é um site desenvolvido do zero utilizando apenas **HTML5** e **CSS3**, com foco em responsividade, performance e design limpo.  
 Ele foi criado para apresentar minhas habilidades, projetos, experiências e facilitar o contato profissional.
 
-> ⚡ **Nota:** Esta é a **primeira versão (v1)** do meu portfólio. Futuramente, pretendo evoluir este projeto com **JavaScript**, **frameworks modernos** (como React ou Vue.js) e outras tecnologias mais avançadas para tornar minha apresentação ainda mais interativa e completa.
+> ⚡ **Nota:** Esta é a **primeira versão (v1)** do meu portfólio. Futuramente, pretendo evoluir este projeto com **frameworks modernos** (como React ou Vue.js) e outras tecnologias mais avançadas para tornar minha apresentação ainda mais interativa e completa.
 
-Acesse o site em: [ **Clique Aqui** ](https://miguelalchaar.github.io/project-portfolio-v1)
+Acesse o site em: [ **Clique Aqui** ](https://portfoliov1-alchaar.netlify.app)
 
 ---
 
@@ -47,6 +48,11 @@ O site é totalmente responsivo e pode ser acessado perfeitamente em:
 - **HTML5:** Estrutura e marcação semântica.
 - **CSS3:** Estilização e responsividade com Flexbox e Media Queries.
 - **GitHub Pages:** Deploy direto a partir do repositório.
+- **JavaScript:** Eventos, interações com menu mobile e envio de formulário.
+- **EmailJS:** Integração direta com serviço de e-mail para envio de mensagens.
+- **Toastify.js:** Feedback visual ao usuário com notificações elegantes de sucesso e erro.
+- **GitHub Pages:** Deploy direto a partir do repositório.
+- **Netlify:** Deploy com build e hospedagem contínua do projeto.
 
 ---
 
@@ -58,6 +64,8 @@ O site é totalmente responsivo e pode ser acessado perfeitamente em:
     │   ├── 📁 img/
     │   ├── 📁 css/
     │    ├── 📄 style.css
+    │   ├── 📁 js/
+    │    ├── 📄 main.js
     │
     │
     ├── 📄 index.html
@@ -73,7 +81,8 @@ O site é totalmente responsivo e pode ser acessado perfeitamente em:
 
 2️⃣ Abra o arquivo index.html no navegador de sua preferência.
 Ou simplesmente acesse a versão publicada:
-[https://miguelalchaar.github.io](https://miguelalchaar.github.io/project-portfolio-v1)
+- GitHub Pages: [https://miguelalchaar.github.io](https://miguelalchaar.github.io/project-portfolio-v1)
+- Netlify: [https://portfoliov1-alchaar.netlify.app/](https://portfoliov1-alchaar.netlify.app/)
 
 ---
 
