@@ -58,6 +58,8 @@ O site é totalmente responsivo e pode ser acessado perfeitamente em:
     │   ├── 📁 img/
     │   ├── 📁 css/
     │    ├── 📄 style.css
+    │   ├── 📁 js/
+    │    ├── 📄 main.js
     │
     │
     ├── 📄 index.html
@@ -74,6 +76,7 @@ O site é totalmente responsivo e pode ser acessado perfeitamente em:
 2️⃣ Abra o arquivo index.html no navegador de sua preferência.
 Ou simplesmente acesse a versão publicada:
 [https://miguelalchaar.github.io](https://miguelalchaar.github.io/project-portfolio-v1)
+[https://portfoliov1-alchaar.netlify.app/](https://portfoliov1-alchaar.netlify.app/)
 
 ---
 
