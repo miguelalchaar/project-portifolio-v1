@@ -10,9 +10,9 @@
 **Portfolio Pessoal v1** é um site desenvolvido do zero utilizando apenas **HTML5** e **CSS3**, com foco em responsividade, performance e design limpo.  
 Ele foi criado para apresentar minhas habilidades, projetos, experiências e facilitar o contato profissional.
 
-> ⚡ **Nota:** Esta é a **primeira versão (v1)** do meu portfólio. Futuramente, pretendo evoluir este projeto com **JavaScript**, **frameworks modernos** (como React ou Vue.js) e outras tecnologias mais avançadas para tornar minha apresentação ainda mais interativa e completa.
+> ⚡ **Nota:** Esta é a **primeira versão (v1)** do meu portfólio. Futuramente, pretendo evoluir este projeto com **frameworks modernos** (como React ou Vue.js) e outras tecnologias mais avançadas para tornar minha apresentação ainda mais interativa e completa.
 
-Acesse o site em: [ **Clique Aqui** ](https://miguelalchaar.github.io/project-portfolio-v1)
+Acesse o site em: [ **Clique Aqui** ](https://portfoliov1-alchaar.netlify.app)
 
 ---
 
@@ -75,8 +75,8 @@ O site é totalmente responsivo e pode ser acessado perfeitamente em:
 
 2️⃣ Abra o arquivo index.html no navegador de sua preferência.
 Ou simplesmente acesse a versão publicada:
-[https://miguelalchaar.github.io](https://miguelalchaar.github.io/project-portfolio-v1)
-[https://portfoliov1-alchaar.netlify.app/](https://portfoliov1-alchaar.netlify.app/)
+- GitHub Pages: [https://miguelalchaar.github.io](https://miguelalchaar.github.io/project-portfolio-v1)
+- Netlify: [https://portfoliov1-alchaar.netlify.app/](https://portfoliov1-alchaar.netlify.app/)
 
 ---
 
