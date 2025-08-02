@@ -48,6 +48,11 @@ O site é totalmente responsivo e pode ser acessado perfeitamente em:
 - **HTML5:** Estrutura e marcação semântica.
 - **CSS3:** Estilização e responsividade com Flexbox e Media Queries.
 - **GitHub Pages:** Deploy direto a partir do repositório.
+- **JavaScript:** Eventos, interações com menu mobile e envio de formulário.
+- **EmailJS:** Integração direta com serviço de e-mail para envio de mensagens.
+- **Toastify.js:** Feedback visual ao usuário com notificações elegantes de sucesso e erro.
+- **GitHub Pages:** Deploy direto a partir do repositório.
+- **Netlify:** Deploy com build e hospedagem contínua do projeto.
 
 ---
 
